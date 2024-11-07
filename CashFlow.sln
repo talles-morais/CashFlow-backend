@@ -11,13 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashFlow.API", "src\CashFlo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashFlow.Domain", "src\CashFlow.Domain\CashFlow.Domain.csproj", "{224CF127-892E-49C7-B20F-C62A6BBEF381}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashFlow.Communication", "CashFlow.Communication\CashFlow.Communication.csproj", "{59E02243-87AA-4D1E-AAE6-EC736B39CB12}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashFlow.Application", "src\CashFlow.Application\CashFlow.Application.csproj", "{559766EA-DDC1-4643-952F-E306639D0620}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashFlow.Exception", "src\CashFlow.Exception\CashFlow.Exception.csproj", "{7406F08E-7284-4D15-9AAA-CEDCD64C6F58}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashFlow.Infrastructure", "src\CashFlow.Infrastructure\CashFlow.Infrastructure.csproj", "{B242327D-8DCC-4ECD-B194-18B131FFB4CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashFlow.Communication", "src\CashFlow.Communication\CashFlow.Communication.csproj", "{5B060005-D27A-42D4-8BB5-BB59B3236212}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,10 +33,6 @@ Global
 		{224CF127-892E-49C7-B20F-C62A6BBEF381}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{224CF127-892E-49C7-B20F-C62A6BBEF381}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{224CF127-892E-49C7-B20F-C62A6BBEF381}.Release|Any CPU.Build.0 = Release|Any CPU
-		{59E02243-87AA-4D1E-AAE6-EC736B39CB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{59E02243-87AA-4D1E-AAE6-EC736B39CB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{59E02243-87AA-4D1E-AAE6-EC736B39CB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{59E02243-87AA-4D1E-AAE6-EC736B39CB12}.Release|Any CPU.Build.0 = Release|Any CPU
 		{559766EA-DDC1-4643-952F-E306639D0620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{559766EA-DDC1-4643-952F-E306639D0620}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{559766EA-DDC1-4643-952F-E306639D0620}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -49,6 +45,10 @@ Global
 		{B242327D-8DCC-4ECD-B194-18B131FFB4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B242327D-8DCC-4ECD-B194-18B131FFB4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B242327D-8DCC-4ECD-B194-18B131FFB4CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B060005-D27A-42D4-8BB5-BB59B3236212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B060005-D27A-42D4-8BB5-BB59B3236212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B060005-D27A-42D4-8BB5-BB59B3236212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B060005-D27A-42D4-8BB5-BB59B3236212}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,10 +56,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D2AFEC22-4665-4325-B21D-F78728B3C347} = {1E51E87B-1CCE-4F7E-A4FF-BF29ABD64395}
 		{224CF127-892E-49C7-B20F-C62A6BBEF381} = {1E51E87B-1CCE-4F7E-A4FF-BF29ABD64395}
-		{59E02243-87AA-4D1E-AAE6-EC736B39CB12} = {1E51E87B-1CCE-4F7E-A4FF-BF29ABD64395}
 		{559766EA-DDC1-4643-952F-E306639D0620} = {1E51E87B-1CCE-4F7E-A4FF-BF29ABD64395}
 		{7406F08E-7284-4D15-9AAA-CEDCD64C6F58} = {1E51E87B-1CCE-4F7E-A4FF-BF29ABD64395}
 		{B242327D-8DCC-4ECD-B194-18B131FFB4CE} = {1E51E87B-1CCE-4F7E-A4FF-BF29ABD64395}
+		{5B060005-D27A-42D4-8BB5-BB59B3236212} = {1E51E87B-1CCE-4F7E-A4FF-BF29ABD64395}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44C9870D-9DB2-427D-8544-C3B1BE5A835A}
